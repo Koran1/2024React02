@@ -1,0 +1,14 @@
+.userProfile {
+    width: 30%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.userProfile button {
+    margin: 10px;
+}
+
+.profileBox {
+    border: 1px solid black;
+
+}
