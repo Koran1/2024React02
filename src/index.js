@@ -12,6 +12,7 @@ import ToDoList from './components/step04/ToDoList';
 import UserProfile from './components/step05/UserProfile';
 import TempConverter from './components/step06/TempConverter';
 import InputForm from './components/step07/InputForm';
+import DollarConverter from './components/hwDollarConv/DollarConverter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +26,8 @@ root.render(
     {/* <ToDoList /> */}
     {/* <UserProfile /> */}
     {/* <TempConverter /> */}
-    <InputForm />
+    {/* <InputForm /> */}
+    <DollarConverter />
   </React.StrictMode>
 );
 

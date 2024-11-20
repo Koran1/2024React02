@@ -1,0 +1,15 @@
+.dollarConvert {
+    width: 30%;
+    text-align: left;
+    margin: 0px auto;
+}
+
+.dollarConvert button {
+    margin: 10px;
+}
+
+.dollarBox {
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+}
