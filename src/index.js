@@ -13,6 +13,10 @@ import UserProfile from './components/step05/UserProfile';
 import TempConverter from './components/step06/TempConverter';
 import InputForm from './components/step07/InputForm';
 import DollarConverter from './components/hwDollarConv/DollarConverter';
+import TestEffect01 from './components/step08/TestEffect01';
+import TestEffect02 from './components/step08/TestEffect02';
+import TestEffect03 from './components/step08/TestEffect03';
+import TestEffect04 from './components/step08/TestEffect04';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +31,11 @@ root.render(
     {/* <UserProfile /> */}
     {/* <TempConverter /> */}
     {/* <InputForm /> */}
-    <DollarConverter />
+    {/* <DollarConverter /> */}
+    {/* <TestEffect01 /> */}
+    {/* <TestEffect02 /> */}
+    {/* <TestEffect03 /> */}
+    <TestEffect04 />
   </React.StrictMode>
 );
 

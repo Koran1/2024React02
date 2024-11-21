@@ -1,0 +1,19 @@
+import { useState } from "react";
+
+function TestEffect01() {
+    // let count = 5;
+    // const setCount = (num) => {
+    //     count = num;
+    //     console.log(count)
+    // }
+
+    const [count, setCount] = useState(5);
+    return (
+        <div>
+            <p>총 {count} 번 출력했습니다.</p>
+            <button onClick={() => setCount(count + 1)}>클릭</button>
+        </div>
+    );
+}
+
+export default TestEffect01;
