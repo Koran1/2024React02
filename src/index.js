@@ -21,6 +21,7 @@ import MemoTest01 from './components/step09/MemoTest01';
 import MemoTest02 from './components/step09/MemoTest02';
 import MemoTest03 from './components/step09/MemoTest03';
 import MemoTest04 from './components/step09/MemoTest04';
+import MemoTest05 from './components/step09/MemoTest05';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -42,7 +43,8 @@ root.render(
     {/* <TestEffect04 /> */}
     {/* <MemoTest01 /> */}
     {/* <MemoTest02 /> */}
-    <MemoTest04 />
+    {/* <MemoTest04 /> */}
+    <MemoTest05 />
   </React.StrictMode>
 );
 
