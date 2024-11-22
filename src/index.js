@@ -24,6 +24,11 @@ import MemoTest04 from './components/step09/MemoTest04';
 import MemoTest05 from './components/step09/MemoTest05';
 import CallBackTest01 from './components/step10/CallBackTest01';
 import CallBackTest02 from './components/step10/CallBackTest02';
+import RefTest01 from './components/step11/RefTest01';
+import RefTest02 from './components/step11/RefTest02';
+import RefTest03 from './components/step11/RefTest03';
+import RefTest04 from './components/step11/RefTest04';
+import RefTest05 from './components/step11/RefTest05';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,7 +53,12 @@ root.render(
     {/* <MemoTest04 /> */}
     {/* <MemoTest05 /> */}
     {/* <CallBackTest01 /> */}
-    <CallBackTest02 />
+    {/* <CallBackTest02 /> */}
+    {/* <RefTest01 /> */}
+    {/* <RefTest02 /> */}
+    {/* <RefTest03 /> */}
+    {/* <RefTest04 /> */}
+    <RefTest05 />
   </React.StrictMode>
 );
 
