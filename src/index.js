@@ -32,6 +32,8 @@ import RefTest05 from './components/step11/RefTest05';
 import UseIdTest01 from './components/step12/UseIdTest01';
 import ContextTest from './components/step13/ContextTest';
 import ContextTest2 from './components/step14/ContextTest2';
+import ReduceTest01 from './components/step15/ReduceTest01';
+import ReduceTest02 from './components/step15/ReduceTest02';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -64,7 +66,9 @@ root.render(
     {/* <RefTest05 /> */}
     {/* <UseIdTest01 /> */}
     {/* <ContextTest /> */}
-    <ContextTest2 />
+    {/* <ContextTest2 /> */}
+    {/* <ReduceTest01 /> */}
+    <ReduceTest02 />
   </React.StrictMode>
 );
 
